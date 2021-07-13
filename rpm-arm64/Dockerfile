@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=amazonlinux:2.0.20181114
+ARG BASE_IMAGE=amazonlinux:2
 FROM ${BASE_IMAGE}
 
 # Build Args
