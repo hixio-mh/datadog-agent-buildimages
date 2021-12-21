@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:11
 
 RUN apt update && apt full-upgrade -y && apt install -y  \
         awscli \
